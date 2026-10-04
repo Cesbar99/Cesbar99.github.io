@@ -4,11 +4,14 @@
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
+    },
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "1.25"
     }
   },
   "onCreateCommand": "sudo apt-get update && sudo apt-get install -y curl ca-certificates && curl -L https://github.com/gohugoio/hugo/releases/download/v0.162.0/hugo_extended_0.162.0_linux-amd64.tar.gz -o /tmp/hugo.tar.gz && sudo tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin hugo && corepack enable && corepack prepare pnpm@10.14.0 --activate",
   "updateContentCommand": "pnpm install --frozen-lockfile",
-  "postCreateCommand": "hugo version && pnpm --version && node --version",
+  "postCreateCommand": "hugo version && pnpm --version && node --version && go version",
   "customizations": {
     "vscode": {
       "extensions": [
