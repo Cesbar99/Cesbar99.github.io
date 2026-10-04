@@ -38,6 +38,12 @@ links:
   - icon: brands/github
     url: https://github.com/Cesbar99
     label: GitHub
+  - icon: brands/x
+    url: https://x.com/cesbar99
+    label: X
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=jQ9hpicAAAAJ&hl=it&oi=ao
+    label: Google Scholar
 
 interests:
   - Uncertainty Quantification
