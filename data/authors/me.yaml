@@ -44,6 +44,9 @@ links:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=jQ9hpicAAAAJ&hl=it&oi=ao
     label: Google Scholar
+  - icon: envelope
+    url: "#email-chooser"
+    label: Email
 
 interests:
   - Uncertainty Quantification
