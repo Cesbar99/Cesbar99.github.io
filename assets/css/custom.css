@@ -85,3 +85,9 @@
   margin-top: 1rem;
   width: 100%;
 }
+
+
+/* Remove the repeated icon from individual education cards while keeping the section icon. */
+.resume-biography .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3.gap-6 > .group > .flex > .flex-shrink-0.w-12.h-12 {
+  display: none;
+}
