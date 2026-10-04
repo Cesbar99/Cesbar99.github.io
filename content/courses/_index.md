@@ -1,6 +1,6 @@
 ---
 title: Courses
-summary: My courses
+summary: ''
 type: landing
 
 cascade:
