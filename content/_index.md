@@ -13,7 +13,7 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ''
+        about: 'Some due introductions'
         education: ''
         interests: ''
     design:
