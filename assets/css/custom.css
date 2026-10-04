@@ -19,3 +19,69 @@
   font-size: 1.5rem;
   line-height: 1;
 }
+
+
+/* Email chooser dialog. */
+.email-chooser-dialog {
+  border: 0;
+  border-radius: 1rem;
+  padding: 0;
+  width: min(92vw, 28rem);
+  background: transparent;
+}
+
+.email-chooser-dialog::backdrop {
+  background: rgb(0 0 0 / 0.45);
+  backdrop-filter: blur(2px);
+}
+
+.email-chooser-card {
+  background: white;
+  color: #111827;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 20px 45px rgb(0 0 0 / 0.22);
+}
+
+.dark .email-chooser-card {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.email-chooser-actions {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.email-chooser-option {
+  display: block;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgb(209 213 219);
+  border-radius: 0.75rem;
+  text-decoration: none;
+}
+
+.dark .email-chooser-option {
+  border-color: rgb(55 65 81);
+}
+
+.email-chooser-option:hover {
+  border-color: currentColor;
+}
+
+.email-chooser-option strong,
+.email-chooser-option span {
+  display: block;
+}
+
+.email-chooser-option span {
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.email-chooser-close {
+  margin-top: 1rem;
+  width: 100%;
+}
