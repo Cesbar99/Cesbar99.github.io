@@ -7,3 +7,15 @@
 .resume-biography .space-y-3 > p.text-lg.text-gray-700 + p.text-lg.text-gray-700::before {
   content: " · ";
 }
+
+
+/* Replace the biography section icon with a handshake emoji. */
+.resume-biography .md\:col-span-8 > div:first-child > .flex.items-center.gap-4.mb-8 > div:first-child svg {
+  display: none;
+}
+
+.resume-biography .md\:col-span-8 > div:first-child > .flex.items-center.gap-4.mb-8 > div:first-child::before {
+  content: "🤝";
+  font-size: 1.5rem;
+  line-height: 1;
+}
