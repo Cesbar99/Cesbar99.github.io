@@ -58,6 +58,16 @@ interests:
 education:
   - degree: PhD in Artificial Intelligence
     institution: University of Pisa
+    start: 2023
+    end: Present
+  - degree: MSc in Data Science
+    institution: University of Trento
+    start: 2020
+    end: 2022
+  - degree: BSc in Economics and Management
+    institution: University of Trento
+    start: 2017
+    end: 2020
 
 experience: []
 
