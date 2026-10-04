@@ -1,0 +1,47 @@
+<dialog id="email-chooser" class="email-chooser-dialog" aria-labelledby="email-chooser-title">
+  <div class="email-chooser-card">
+    <h2 id="email-chooser-title" class="text-xl font-bold">Choose an email address</h2>
+    <p class="mt-2 text-sm opacity-75">Which university address would you like to write to?</p>
+
+    <div class="email-chooser-actions">
+      <a class="email-chooser-option" href="mailto:cesare.babrera@phd.unipi.it">
+        <strong>University of Pisa</strong>
+        <span>cesare.babrera@phd.unipi.it</span>
+      </a>
+
+      <a class="email-chooser-option" href="mailto:cesare.barbera@unitn.it">
+        <strong>University of Trento</strong>
+        <span>cesare.barbera@unitn.it</span>
+      </a>
+    </div>
+
+    <button type="button" class="email-chooser-close px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700">
+      Cancel
+    </button>
+  </div>
+</dialog>
+
+<script>
+(() => {
+  const dialog = document.getElementById('email-chooser');
+  if (!dialog) return;
+
+  document.querySelectorAll('a[href="#email-chooser"]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      if (typeof dialog.showModal === 'function') {
+        dialog.showModal();
+      } else {
+        window.location.hash = 'email-chooser';
+      }
+    });
+  });
+
+  const closeButton = dialog.querySelector('.email-chooser-close');
+  if (closeButton) closeButton.addEventListener('click', () => dialog.close());
+
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+})();
+</script>
