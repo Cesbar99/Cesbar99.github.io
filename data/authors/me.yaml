@@ -20,11 +20,12 @@ role: PhD Candidate in Artificial Intelligence
 bio: |
   I am a PhD candidate in Artificial Intelligence at the University of Pisa, and I work with the
   [Structured Machine Learning Group](https://sml.disi.unitn.it/) at the University of Trento.
+  
   My research focuses on uncertainty quantification and reliable machine learning, with particular
   interests in probabilistic calibration, conformal prediction, and uncertainty-aware human-AI
-  decision making.
-
-  More broadly, I am interested in developing the next generation of uncertainty-aware, trustworthy and human-centric AI frameworks.
+  decision making. More broadly, I am interested in developing the next generation of uncertainty-aware, 
+  trustworthy and human-centric AI frameworks.
+  
   I am always happy to chat about research, possible collaborations or interesting
   ideas, so feel free to reach out.
 
