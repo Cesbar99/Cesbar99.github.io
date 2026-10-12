@@ -70,7 +70,13 @@ education:
     institution: University of Trento
     start: 2017 - 2020    
 
-experience: []
+experience:
+  - role: Data Scientist Intern
+    org: Reale Mutua Assicurazioni
+    start: 2022-02-01
+    end: 2022-06-30
+    summary: |
+      Data science internship at Reale Mutua Assicurazioni.
 
 skills:
   - name: Research
@@ -100,4 +106,21 @@ languages:
     level: 5
     label: Fluent
 
-awards: []
+awards:
+  - title: TANGO — Horizon Europe g.a. No. 101120763
+    awarder: Horizon Europe
+    date: "2023-03-01"
+    summary: |
+      Working on hybrid decision-making paradigms.
+
+  - title: FAIR — Spoke 2 — Human-centric AI
+    awarder: FAIR
+    date: "2023-03-01"
+    summary: |
+      Research on interpretable and trustworthy machine learning (WP 2.8) under Prof. A. Passerini's supervision.
+
+  - title: National PhD Scholarship in Artificial Intelligence
+    awarder: National PhD in Artificial Intelligence
+    date: "2023-03-01"
+    summary: |
+      Awarded a national PhD scholarship in Artificial Intelligence, which led me to join the SML Research Group at the University of Trento, where I work on uncertainty quantification in machine learning.
