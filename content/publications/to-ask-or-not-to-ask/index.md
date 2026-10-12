@@ -14,7 +14,4 @@ publication:
   short_name: "HLDM @ ECML PKDD 2025"
 peer_reviewed: true
 featured: true
-links:
-  - type: paper
-    url: https://arxiv.org/abs/2510.08314
 ---
