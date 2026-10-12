@@ -27,6 +27,7 @@ sections:
         shape: circle
 
   - block: collection
+    id: papers
     content:
       title: Publications
       text: ''
@@ -69,4 +70,18 @@ sections:
       view: card
       spacing:
         padding: [0, 0, 0, 0]
+
+  - block: resume-experience
+    id: experience
+    content:
+      username: me
+    design:
+      date_format: 'January 2006'
+      is_education_first: false
+
+  - block: resume-awards
+    id: grants-awards
+    content:
+      title: Grants & Awards
+      username: me
 ---
