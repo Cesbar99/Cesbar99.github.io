@@ -13,7 +13,4 @@ publication:
   short_name: "AISTATS 2026"
 peer_reviewed: true
 featured: true
-links:
-  - type: paper
-    url: https://proceedings.mlr.press/v300/barbera26a.html
 ---
