@@ -96,7 +96,7 @@
 /* Tighten author punctuation on publication detail pages.
    Keep each comma attached to the author before it: "Name, Next Name". */
 body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > span.mr-1 {
-  margin-left: -0.25rem;
+  margin-left: -0.1rem;
   margin-right: 0.25rem;
 }
 
