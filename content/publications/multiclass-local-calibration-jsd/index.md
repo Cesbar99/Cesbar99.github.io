@@ -1,4 +1,5 @@
 ---
+reading_time: false
 title: "Multiclass Local Calibration with the Jensen-Shannon Distance"
 authors:
   - me
