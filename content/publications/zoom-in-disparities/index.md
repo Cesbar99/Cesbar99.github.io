@@ -16,10 +16,4 @@ publication:
   short_name: "NLDB 2026"
 peer_reviewed: true
 featured: true
-hugoblox:
-  ids:
-    doi: 10.1007/978-3-032-29532-3_12
-links:
-  - type: paper
-    url: https://doi.org/10.1007/978-3-032-29532-3_12
 ---
