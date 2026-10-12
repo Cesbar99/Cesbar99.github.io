@@ -10,3 +10,5 @@ banner:
   caption: ''
   image: ''
 ---
+
+See my full publication list on [<u>Google Scholar</u>](https://scholar.google.com/citations?user=jQ9hpicAAAAJ&hl=it&oi=ao).
