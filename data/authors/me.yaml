@@ -42,6 +42,9 @@ links:
   - icon: brands/x
     url: https://x.com/cesbar99
     label: X
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/cesare-b-84b7a9131/
+    label: LinkedIn
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=jQ9hpicAAAAJ&hl=it&oi=ao
     label: Google Scholar
