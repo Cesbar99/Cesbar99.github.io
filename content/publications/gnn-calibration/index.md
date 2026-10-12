@@ -15,5 +15,5 @@ publication:
   name: "Towards Trustworthy Predictions: Theory and Applications of Calibration for Modern AI (AISTATS 2026 Workshop)"
   short_name: "Calibration Workshop @ AISTATS 2026"
 peer_reviewed: true
-featured: true
+featured: false
 ---
