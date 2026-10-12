@@ -1,4 +1,5 @@
 ---
+reading_time: false
 title: "Zoom In Disparities in Healthcare LLM Q&A"
 authors:
   - Ipek Baris Schlicht
