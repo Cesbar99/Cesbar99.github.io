@@ -1,4 +1,5 @@
 ---
+reading_time: false
 title: "To Ask or Not to Ask: Learning to Require Human Feedback"
 authors:
   - Andrea Pugnana
