@@ -94,12 +94,13 @@
 
 
 /* Tighten author punctuation on publication detail pages.
-   HugoBlox adds margins to both the comma and each inline author item. */
+   Keep each comma attached to the author before it: "Name, Next Name". */
 body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > span.mr-1 {
-  margin-right: 0;
+  margin-left: -0.25rem;
+  margin-right: 0.25rem;
 }
 
 body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > .group.inline-flex.items-center.text-current {
   margin-left: 0;
-  margin-right: 0.25rem;
+  margin-right: 0;
 }
