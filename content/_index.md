@@ -26,19 +26,6 @@ sections:
         size: medium
         shape: circle
 
-  - block: markdown
-    content:
-      title: 'Research'
-      subtitle: ''
-      text: |-
-        I work on **machine learning under uncertainty**, with a focus on methods that make predictive systems more reliable and useful when decisions matter.
-
-        My research spans **probabilistic calibration**, **uncertainty quantification**, **conformal prediction**, and **human-AI decision making**. I am particularly interested in how models can communicate uncertainty, decide when to defer or acquire more information, and support people in making better decisions.
-
-        More broadly, I am interested in the intersection between reliable machine learning and decision-making systems.
-    design:
-      columns: '1'
-
   - block: collection
     id: papers
     content:
