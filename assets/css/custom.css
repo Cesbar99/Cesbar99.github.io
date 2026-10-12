@@ -96,11 +96,21 @@
 /* Tighten author punctuation on publication detail pages.
    Keep each comma attached to the author before it: "Name, Next Name". */
 body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > span.mr-1 {
-  margin-left: -0.1rem;
+  margin-left: 0.08rem;
   margin-right: 0.25rem;
 }
 
 body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > .group.inline-flex.items-center.text-current {
   margin-left: 0;
   margin-right: 0;
+}
+
+
+/* Tighten spacing between Publications and Talks. */
+#papers {
+  padding-bottom: 1.25rem !important;
+}
+
+#talks {
+  padding-top: 1.5rem !important;
 }
