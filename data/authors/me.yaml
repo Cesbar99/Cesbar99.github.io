@@ -72,12 +72,26 @@ interests:
 #     start: 2017 - 2020
 
 experience:
+  - role: PhD in Artificial Intelligence
+    org: University of Pisa
+    start: "2023"
+
   - role: Data Scientist Intern
     org: Reale Mutua Assicurazioni
     start: 2022-02-01
     end: 2022-06-30
     summary: |
       Data science internship at Reale Mutua Assicurazioni.
+
+  - role: MSc in Data Science
+    org: University of Trento
+    start: "2020"
+    end: "2022"
+
+  - role: BSc in Economics and Management
+    org: University of Trento
+    start: "2017"
+    end: "2020"
 
 skills:
   - name: Research
