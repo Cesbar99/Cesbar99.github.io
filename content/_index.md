@@ -30,7 +30,7 @@ sections:
     id: papers
     content:
       title: Publications
-      text: ''
+      text: '[See my full publication list on Google Scholar](https://scholar.google.com/citations?user=jQ9hpicAAAAJ&hl=it&oi=ao)'
       filters:
         folders:
           - publications
