@@ -1,4 +1,5 @@
 ---
+reading_time: false
 title: "Elementary, My Dear Classifier: Interpretable Hypothesis Exclusion with Conformal Anchors"
 authors:
   - me
