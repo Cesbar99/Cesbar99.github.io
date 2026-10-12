@@ -14,5 +14,5 @@ publication:
   name: "The Third Workshop on Hybrid Human-Machine Learning and Decision Making (ECML PKDD 2025)"
   short_name: "HLDM @ ECML PKDD 2025"
 peer_reviewed: true
-featured: true
+featured: false
 ---
