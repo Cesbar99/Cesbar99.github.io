@@ -16,3 +16,6 @@ main:
   - name: Experience & Education
     url: /#experience
     weight: 14
+  - name: Grants & Awards
+    url: /#grants-awards
+    weight: 15
