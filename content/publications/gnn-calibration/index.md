@@ -1,4 +1,5 @@
 ---
+reading_time: false
 title: "On the Global and Local Calibration of Graph Neural Networks"
 authors:
   - Francesco Ferrini
