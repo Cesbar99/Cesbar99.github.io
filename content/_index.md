@@ -35,15 +35,12 @@ sections:
         folders:
           - publications
         featured_only: true
+      archive:
+        enable: true
+        link: /publications/
+        text: See all publications
     design:
       view: citation
-
-  - block: cta-button-list
-    content:
-      buttons:
-        - text: See all publications
-          icon: hero/arrow-right
-          url: /publications/
 
   - block: collection
     id: talks
