@@ -59,16 +59,17 @@ interests:
   - Reliable Machine Learning
   - Human-AI Decision Making
 
-education:
-  - degree: PhD in Artificial Intelligence
-    institution: University of Pisa
-    start: 2023 - Present    
-  - degree: MSc in Data Science
-    institution: University of Trento
-    start: 2020 - 2022    
-  - degree: BSc in Economics and Management
-    institution: University of Trento
-    start: 2017 - 2020    
+# Education is intentionally omitted from the website and kept in the CV.
+# education:
+#   - degree: PhD in Artificial Intelligence
+#     institution: University of Pisa
+#     start: 2023 - Present    
+#   - degree: MSc in Data Science
+#     institution: University of Trento
+#     start: 2020 - 2022    
+#   - degree: BSc in Economics and Management
+#     institution: University of Trento
+#     start: 2017 - 2020
 
 experience:
   - role: Data Scientist Intern
