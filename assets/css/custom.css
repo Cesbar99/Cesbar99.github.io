@@ -91,3 +91,15 @@
 .resume-biography .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3.gap-6 > .group > .flex > .flex-shrink-0.w-12.h-12 {
   display: none;
 }
+
+
+/* Tighten author punctuation on publication detail pages.
+   HugoBlox adds margins to both the comma and each inline author item. */
+body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > span.mr-1 {
+  margin-right: 0;
+}
+
+body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > .group.inline-flex.items-center.text-current {
+  margin-left: 0;
+  margin-right: 0.25rem;
+}
