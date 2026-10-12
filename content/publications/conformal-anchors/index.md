@@ -15,5 +15,5 @@ publication:
   name: "The Fourth Workshop on Hybrid Human-Machine Learning and Decision Making (ECML PKDD 2026)"
   short_name: "HLDM @ ECML PKDD 2026"
 peer_reviewed: true
-featured: true
+featured: false
 ---
