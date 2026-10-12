@@ -15,7 +15,4 @@ publication:
   short_name: "Calibration Workshop @ AISTATS 2026"
 peer_reviewed: true
 featured: true
-links:
-  - type: paper
-    url: https://openreview.net/forum?id=FHsEi0qz7t
 ---
