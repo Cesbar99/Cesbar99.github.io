@@ -30,13 +30,20 @@ sections:
     id: papers
     content:
       title: Publications
-      text: 'See my full publication list on [<u>Google Scholar</u>](https://scholar.google.com/citations?user=jQ9hpicAAAAJ&hl=it&oi=ao)'
+      text: ''
       filters:
         folders:
           - publications
         featured_only: true
     design:
       view: citation
+
+  - block: cta-button-list
+    content:
+      buttons:
+        - text: See all publications
+          icon: hero/arrow-right
+          url: /publications/
 
   - block: collection
     id: talks
