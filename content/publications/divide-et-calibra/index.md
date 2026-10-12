@@ -1,4 +1,5 @@
 ---
+reading_time: false
 title: "Divide et Calibra: Multiclass Local Calibration via Vector Quantization"
 authors:
   - me
