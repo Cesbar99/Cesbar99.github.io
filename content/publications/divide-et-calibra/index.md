@@ -13,7 +13,4 @@ publication:
   short_name: "NeurIPS 2026"
 peer_reviewed: true
 featured: true
-links:
-  - type: paper
-    url: https://arxiv.org/abs/2605.21060
 ---
