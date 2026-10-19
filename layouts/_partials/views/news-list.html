@@ -8,7 +8,7 @@
 
   <h3 class="text-lg font-semibold text-gray-900 dark:text-white leading-snug">
     {{ if $clickable }}
-      <a href="{{ $item.RelPermalink }}" class="hover:underline underline-offset-4">
+      <a href="{{ $item.RelPermalink }}" class="underline underline-offset-4 decoration-1 hover:decoration-2">
         {{ $item.Title }}
       </a>
     {{ else }}
@@ -18,5 +18,11 @@
 
   {{ with $item.Params.summary }}
     <p class="mt-1 text-gray-600 dark:text-gray-300 leading-relaxed">{{ . }}</p>
+  {{ end }}
+
+  {{ if $clickable }}
+    <a href="{{ $item.RelPermalink }}" class="inline-flex mt-2 text-sm font-medium text-primary-600 dark:text-primary-400 hover:underline underline-offset-4">
+      Read abstract →
+    </a>
   {{ end }}
 </div>
