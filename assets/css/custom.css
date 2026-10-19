@@ -8,11 +8,6 @@
   content: " · ";
 }
 
-/* Reduce space between navbar and homepage biography */
-.resume-biography {
-  padding-top: 1.5rem !important;
-}
-
 /* Replace the biography section icon with a handshake emoji. */
 .resume-biography .md\:col-span-8 > div:first-child > .flex.items-center.gap-4.mb-8 > div:first-child svg {
   display: none;
