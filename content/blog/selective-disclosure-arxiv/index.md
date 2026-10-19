@@ -1,10 +1,10 @@
 ---
-title: "Should I Stay or Should I Show? is on arXiv"
+title: "“Should I Stay or Should I Show? Learning to Selectively Disclose Information” is on arXiv"
 date: 2026-09-30
 summary: "Our work on learning when to selectively disclose information to human decision-makers is now available on arXiv."
 clickable: true
 ---
-[**Should I Stay or Should I Show? Learning to Selectively Disclose Information**](https://arxiv.org/abs/2609.39818) is now available on **arXiv**.
+“[**Should I Stay or Should I Show? Learning to Selectively Disclose Information**](https://arxiv.org/abs/2609.39818)” is now available on **arXiv**.
 
 ## Abstract
 
