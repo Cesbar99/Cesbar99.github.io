@@ -1,10 +1,10 @@
 ---
-title: "Our healthcare LLM disparities work is on arXiv"
+title: "“Disparities in Multilingual LLM-Based Healthcare Q&A” is on arXiv"
 date: 2025-10-20
-summary: "Our work on disparities in multilingual LLM-based healthcare Q&A is now available on arXiv."
+summary: "Our work on cross-lingual disparities in multilingual LLM-based healthcare Q&A is now available on arXiv."
 clickable: true
 ---
-[**Disparities in Multilingual LLM-Based Healthcare Q&A**](https://arxiv.org/abs/2510.17476) is now available on **arXiv**.
+“[**Disparities in Multilingual LLM-Based Healthcare Q&A**](https://arxiv.org/abs/2510.17476)” is now available on **arXiv**.
 
 ## Abstract
 
