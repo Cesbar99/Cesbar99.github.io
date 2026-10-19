@@ -71,7 +71,7 @@ sections:
       offset: 0
       order: desc
     design:
-      view: card
+      view: news-list
       spacing:
         padding: [0, 0, 0, 0]
 
