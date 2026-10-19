@@ -1,10 +1,10 @@
 ---
-title: "A CaLLM Judge is a Better Judge is on arXiv"
+title: "“A CaLLM Judge is a Better Judge: Mitigating Bias in LLM-as-a-judge” is on arXiv"
 date: 2026-10-13
 summary: "Our work on mitigating bias in LLM-as-a-judge systems is now available on arXiv."
 clickable: true
 ---
-[**A CaLLM Judge is a Better Judge: Mitigating Bias in LLM-as-a-judge**](https://arxiv.org/abs/2610.18108) is now available on **arXiv**.
+“[**A CaLLM Judge is a Better Judge: Mitigating Bias in LLM-as-a-judge**](https://arxiv.org/abs/2610.18108)” is now available on **arXiv**.
 
 ## Abstract
 
