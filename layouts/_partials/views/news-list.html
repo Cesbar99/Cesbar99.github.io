@@ -1,0 +1,22 @@
+{{ $item := .item }}
+{{ $clickable := $item.Params.clickable | default false }}
+
+<div class="w-full max-w-3xl py-4 border-b border-gray-200/70 dark:border-gray-700/70 last:border-b-0">
+  <div class="text-sm text-gray-500 dark:text-gray-400 mb-1">
+    {{ $item.Date | time.Format "January 2006" }}
+  </div>
+
+  <h3 class="text-lg font-semibold text-gray-900 dark:text-white leading-snug">
+    {{ if $clickable }}
+      <a href="{{ $item.RelPermalink }}" class="hover:underline underline-offset-4">
+        {{ $item.Title }}
+      </a>
+    {{ else }}
+      {{ $item.Title }}
+    {{ end }}
+  </h3>
+
+  {{ with $item.Params.summary }}
+    <p class="mt-1 text-gray-600 dark:text-gray-300 leading-relaxed">{{ . }}</p>
+  {{ end }}
+</div>
