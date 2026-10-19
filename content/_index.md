@@ -59,7 +59,7 @@ sections:
       subtitle: ''
       text: ''
       page_type: blog
-      count: 10
+      count: 20
       filters:
         author: ''
         category: ''
