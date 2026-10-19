@@ -1,10 +1,10 @@
 ---
-title: "To Ask or Not to Ask is on arXiv"
+title: "“To Ask or Not to Ask: Learning to Require Human Feedback” is on arXiv"
 date: 2025-10-09
-summary: "Our work on learning when to require human feedback is now available on arXiv."
+summary: "Our work on learning when and how to incorporate human feedback into ML models is now available on arXiv."
 clickable: true
 ---
-[**To Ask or Not to Ask: Learning to Require Human Feedback**](https://arxiv.org/abs/2510.08314) is now available on **arXiv**.
+“[**To Ask or Not to Ask: Learning to Require Human Feedback**](https://arxiv.org/abs/2510.08314)” is now available on **arXiv**.
 
 ## Abstract
 
