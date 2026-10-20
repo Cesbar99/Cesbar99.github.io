@@ -18,7 +18,9 @@ sections:
         interests: ''
     design:
       spacing:
-        padding: [0, 0, 1, 0]
+        padding: ['0.5rem', '0', '1rem', '0']
+        padding_sm: ['0.5rem', '1rem']
+        margin: ['0', '0', '0', '0']
       background:
         gradient_mesh:
           enable: true
