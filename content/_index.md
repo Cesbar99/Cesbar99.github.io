@@ -4,7 +4,6 @@ summary: 'Cesare Barbera — PhD candidate working on uncertainty quantification
 date: 2026-10-04
 type: landing
 
-sections:
   - block: resume-biography-3
     content:
       username: me
@@ -17,6 +16,8 @@ sections:
         education: ''
         interests: ''
     design:
+      spacing:
+        padding: [1, 0, 1, 0]
       background:
         gradient_mesh:
           enable: true
