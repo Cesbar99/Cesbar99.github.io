@@ -105,11 +105,7 @@ body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > 
 }
 
 
-/* Tighten spacing between Publications and Talks. */
+/* Tighten spacing after Publications. */
 #papers {
   padding-bottom: 1.25rem !important;
-}
-
-#talks {
-  padding-top: 1.5rem !important;
 }
