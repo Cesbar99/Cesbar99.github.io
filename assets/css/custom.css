@@ -109,3 +109,16 @@ body:has(a[href*="/publications/"]) main .text-sm.flex.items-center.flex-wrap > 
 #papers {
   padding-bottom: 1.25rem !important;
 }
+
+
+/* Compact the biography hero itself.
+   HugoBlox adds mt-10 to the avatar and md:mt-12 to the biography column. */
+.resume-biography .avatar-wrapper {
+  margin-top: 0.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .resume-biography > .flex-auto {
+    margin-top: 0.5rem !important;
+  }
+}
